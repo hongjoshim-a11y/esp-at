@@ -10,13 +10,6 @@ jobs:
       artifacts_name: esp32c3-mini-1-at
     secrets: inherit
 
-  build-esp32c3-spi-at:
-    uses: ./.github/workflows/build_template_esp32c3.yml
-    with:
-      module_name: ESP32C3-SPI
-      artifacts_name: esp32c3-spi-at
-    secrets: inherit
-
   build-esp32c3-at-all-wifi-features:
     uses: ./.github/workflows/build_template_esp32c3.yml
     with:
